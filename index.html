@@ -154,20 +154,31 @@
           referrerpolicy="no-referrer-when-downgrade"
           class="map"
         ></iframe>
-        <form action="">
+        <form method="post" action="send_email.php">
           <div class="input-group">
             <i data-feather="user"></i>
-            <input type="text" placeholder="Nama" />
+            <input type="text" id="name" name="name" placeholder="Nama" />
           </div>
           <div class="input-group">
             <i data-feather="mail"></i>
-            <input type="text" placeholder="E-mail" />
+            <input type="text" id="email" name="email" placeholder="E-mail" />
           </div>
           <div class="input-group">
             <i data-feather="phone"></i>
-            <input type="text" placeholder="No. HP" />
+            <input type="text" id="phone" name="phone" placeholder="No. HP" />
           </div>
-          <button type="submit" class="btn">Kirim Pesan</button>
+          <div class="input-group">
+            <i data-feather="message-square"></i>
+            <input
+              type="text"
+              id="message"
+              name="message"
+              placeholder="Message"
+            />
+          </div>
+          <button type="submit" class="btn">
+            Kirim Pesan <i data-feather="send"></i>
+          </button>
         </form>
       </div>
     </section>
