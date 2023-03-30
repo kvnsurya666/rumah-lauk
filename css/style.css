@@ -1,6 +1,6 @@
 :root {
   --primary: #dfda49;
-  --secondary: #07f116;
+  --secondary: #38bd43;
   --bg: #010101;
 }
 
@@ -120,7 +120,7 @@ body {
 }
 
 .hero .content h1 span {
-  color: var(--secondary);
+  color: var(--primary);
 }
 
 .hero .content p {
